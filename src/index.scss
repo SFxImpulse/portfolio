@@ -1,7 +1,7 @@
 @import "~normalize.css/normalize.css";
 
 @import "styles/reset";
-// @import "styles/variables";
+@import "styles/variables";
 // @import "styles/typography";
 
 * {
@@ -10,4 +10,9 @@
 
 body {
   font-family: "Nonum Gothic", sans-serif;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
 }
