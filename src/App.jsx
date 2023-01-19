@@ -1,8 +1,12 @@
 import MainPage from './components/MainPage';
+import Header from './components/Header';
 
 function App() {
   return (
-    <MainPage/>
+    <div>
+      <Header />
+      <MainPage />
+    </div>
   )
 }
 
