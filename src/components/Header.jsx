@@ -1,12 +1,14 @@
 import Button from "./Button";
+import "./Header.scss";
 
 const Header = () => {
   return (
     <nav className="nav-container">
       <h2 className="last-name">Braverman</h2>
-      <Button label="ABOUT"/>
-      <Button label="RESUME"/>
-      <Button label="PORTFOLIO"/>
+      <div className="button-container">
+        <button>Light/Dark mode</button>
+        <button>Drop Down Menu</button>
+      </div>
     </nav>
   );
 }

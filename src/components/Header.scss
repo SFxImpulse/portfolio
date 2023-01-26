@@ -1,0 +1,17 @@
+@import "../index.scss";
+
+.nav-container {
+  margin-top: 1.2em;
+  margin-left: 2em;
+  display: flex;
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .last-name {
+    color: #373737;
+  }
+}
