@@ -2,14 +2,14 @@
 
 @import "styles/reset";
 @import "styles/variables";
-// @import "styles/typography";
+@import "styles/typography";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Nonum Gothic", sans-serif;
+  font-family: $font-family;
 }
 
 .layout {

@@ -1,20 +1,22 @@
 @import "../index.scss";
+@import "../styles/animations.scss";
 
 .button {
+  width: 17%;
+  padding: 0;
   background-color: white;
+  border: 0;
+  line-height: 72px;
   font-size: 24px;
-  border-top: 0;
-  border-bottom: 0;
-  padding-left: 1.3em;
-  padding-right: 1.3em;
-  line-height: 2;
   cursor: pointer;
 
-  &:hover {
-    background-color: lightgrey;
-    font-size: 28px;
-    line-height: 1.7;
-    padding-left: 0.875em;
-    padding-right: 0.875em;
+  .label {
+    transform: scale(1);
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s ease;
+    }
   }
 }

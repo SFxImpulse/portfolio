@@ -1,10 +1,12 @@
 import Button from "./Button";
 
-const Header = props => {
+const Header = () => {
   return (
     <nav className="nav-container">
-      <p>Braverman</p>
-      <Button />
+      <h2 className="last-name">Braverman</h2>
+      <Button label="ABOUT"/>
+      <Button label="RESUME"/>
+      <Button label="PORTFOLIO"/>
     </nav>
   );
 }
