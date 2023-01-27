@@ -1,4 +1,5 @@
 @import "../index.scss";
+@import "../styles/variables.scss";
 
 .nav-container {
   align-items: center;
@@ -8,6 +9,7 @@
   background-color: #2B2C38;
   
     .last-name {
+      font-family: $font-family2;
       color: #E6E6E6;
     }
 

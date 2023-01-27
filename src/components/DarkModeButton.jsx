@@ -17,7 +17,7 @@ const DarkModeButton = () => {
           size="2x"
           className="darkmode-button"
           onClick={() => {
-            state.dark ? setState({ dark: false }) : setState({ dark: true });
+            setState({ dark: false });
           }}
         />  
       : <FontAwesomeIcon
@@ -25,7 +25,7 @@ const DarkModeButton = () => {
           size="2x"
           className="darkmode-button"
           onClick={() => {
-            state.dark ? setState({ dark: false }) : setState({ dark: true });
+            setState({ dark: true });
           }}
         />
     )

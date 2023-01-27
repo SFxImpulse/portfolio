@@ -1,8 +1,8 @@
 $weights: (
-  light: 200,
+  thin: 100,
+  light: 300,
   regular: 400,
-  bold: 500,
-  extra-bold: 700
+  bold: 700
 );
 
 @each $weight, $value in $weights {
