@@ -4,7 +4,12 @@ import "./MenuButton.scss";
 
 const MenuButton = () => {
   return (
-    <FontAwesomeIcon icon={faGripLines} size="2x" className="menu-button" onClick={() => console.log("Menu Opened")} />
+    <FontAwesomeIcon
+      icon={faGripLines}
+      size="2x"
+      className="menu-button"
+      onClick={() => console.log("Menu Opened")}
+    />
   );
 };
 
