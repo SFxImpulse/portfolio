@@ -1,17 +1,32 @@
 @import "../index.scss";
 
 .nav-container {
-  margin-top: 1.2em;
-  margin-left: 2em;
+  align-items: center;
+  padding-left: 1.5em;
+  height: 5em;
   display: flex;
+  background-color: #2B2C38;
+  
+    .last-name {
+      color: #E6E6E6;
+    }
 
   .button-container {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-  }
+    padding-right: 1em;
 
-  .last-name {
-    color: #373737;
+    .darkmode-button {
+      padding-right: 1em;
+      color: white;
+      cursor: pointer;
+    }
+
+    .menu-button {
+      padding-right: 1em;
+      color: white;
+      cursor: pointer;
+    }
   }
 }
