@@ -4,7 +4,7 @@ import "./DarkModeButton.scss";
 
 const DarkModeButton = props => {
 
-  console.log(props);
+  // console.log(props.dark);
 
   return (
     (props.dark

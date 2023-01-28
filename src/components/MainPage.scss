@@ -1,18 +1,28 @@
 @import "../styles/variables.scss";
 @import "../styles/typography.scss";
 
-.hero-section-container {
+.main-page {
+  color: black;
+  background-color: white;
 
-  .title {
-    color: #4F505C;
-    font-family: $font-family2;
-  }
+  .hero-section-container {
 
-  .name {
-    color: #242446;
-  }
+    .title {
+      // color: #4F505C;
+      font-family: $font-family2;
+    }
 
-  .bio {
-    font-family: $font-family2;
+    .name {
+      // color: #242446;
+    }
+
+    .bio {
+      font-family: $font-family2;
+    }
   }
+}
+
+.main-page-dark {
+  color: white;
+  background-color: black;
 }

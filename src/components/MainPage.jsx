@@ -3,14 +3,13 @@ import classNames from "classnames";
 
 function MainPage(props) {
 
-  // let mainPageClass = classNames({
-  //   "main-page": true,
-  //   "main-page-dark": state.dark,
-
-  // })
+  let mainPage = classNames({
+    "main-page": !props.dark,
+    "main-page-dark": props.dark,
+  });
 
   return (
-    <div>
+    <div className={mainPage}>
       <section className="hero-section-container">
         <h2 className="title text--regular">Full Stack Web Developer</h2>
         <h1 className="name text--bold">David Braverman</h1>
