@@ -1,6 +1,5 @@
 @import "../styles/variables.scss";
 @import "../styles/typography.scss";
-@import "../styles/animations.scss";
 
 .main-page {
   padding: 240px;
@@ -34,7 +33,7 @@
   height: 100vh;
   color: #F0F6FD;
   background-color: #2E3946;
-  animation: dark-mode 0.5s;
+  transition: color 0.5s, background-color 0.5s;
 
   .hero-section-container {
     width: 40%;
@@ -42,12 +41,12 @@
     .title {
       color: #C8C8D0;
       font-family: $font-family2;
-      animation: dark-mode-title 0.5s;
+      transition: color 0.5s;
     }
 
     .name {
       color: #C1C9D4;
-      animation: dark-mode-name 0.5s;
+      transition: color 0.5s;
     }
 
     .bio {
