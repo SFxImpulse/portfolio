@@ -3,14 +3,14 @@
 @import "../styles/animations.scss";
 
 .main-page {
-  // padding: 240px;
+  padding: 240px;
   height: 100vh;
   color: #1E252E;
   background-color: #E1E9F3;
   // animation: light-mode 0.5s;
 
   .hero-section-container {
-    // width: 40%;
+    width: 40%;
 
     .title {
       color: #4F505C;
@@ -30,14 +30,14 @@
 }
 
 .main-page-dark {
-  // padding: 240px;
+  padding: 240px;
   height: 100vh;
   color: #F0F6FD;
   background-color: #2E3946;
   animation: dark-mode 0.5s;
 
   .hero-section-container {
-    // width: 40%;
+    width: 40%;
 
     .title {
       color: #C8C8D0;
