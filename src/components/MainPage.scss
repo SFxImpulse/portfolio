@@ -2,14 +2,16 @@
 @import "../styles/typography.scss";
 
 .main-page {
-  padding: 240px;
+  display: flex;
+  padding-top: 280px;
+  padding-left: 100px;
   height: 100vh;
   color: #1E252E;
   background-color: #E1E9F3;
   transition: color 0.5s, background-color 0.5s;
 
   .hero-section-container {
-    width: 40%;
+    width: 45%;
 
     .title {
       color: #4F505C;
@@ -29,14 +31,15 @@
 }
 
 .main-page-dark {
-  padding: 240px;
+  padding-top: 280px;
+  padding-left: 100px;
   height: 100vh;
   color: #F0F6FD;
   background-color: #2E3946;
   transition: color 0.5s, background-color 0.5s;
 
   .hero-section-container {
-    width: 40%;
+    width: 45%;
 
     .title {
       color: #C8C8D0;
