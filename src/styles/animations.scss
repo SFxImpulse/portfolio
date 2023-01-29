@@ -7,35 +7,14 @@
     color: #F0F6FD;
     background-color: #2E3946;
   }
-}
+};
 
 @keyframes dark-mode-title {
   from { color: #4F505C; }
   to { color: #C8C8D0; }
-}
+};
 
 @keyframes dark-mode-name {
   from { color: #242446; }
   to { color: #C1C9D4; }
-}
-
-// @keyframes light-mode {
-//   from {
-//     color: #F0F6FD;
-//     background-color: #2E3946;
-//   }
-//   to {
-//     color: #1E252E;
-//     background-color: #E1E9F3;
-//   }
-// }
-
-// @keyframes light-mode-title {
-//   from { color: #C8C8D0; }
-//   to { color: #4F505C; }
-// }
-
-// @keyframes light-mode-name {
-//   from { color: #C1C9D4; }
-//   to { color: #242446; }
-// }
+};

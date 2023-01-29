@@ -7,7 +7,7 @@
   height: 100vh;
   color: #1E252E;
   background-color: #E1E9F3;
-  // animation: light-mode 0.5s;
+  transition: color 0.5s, background-color 0.5s;
 
   .hero-section-container {
     width: 40%;
@@ -15,12 +15,12 @@
     .title {
       color: #4F505C;
       font-family: $font-family2;
-      // animation: light-mode-title 0.5s;
+      transition: color 0.5s;
     }
 
     .name {
       color: #242446;
-      // animation: light-mode-name 0.5s;
+      transition: color 0.5s;
     }
 
     .bio {
