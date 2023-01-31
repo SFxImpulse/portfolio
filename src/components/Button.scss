@@ -3,14 +3,12 @@
 @import "../styles/typography.scss";
 
 .button {
-  // width: 17%;
   padding: 0;
-  color: #E6E6E6;
-  background-color: #2B2C38;
   border: 0;
   line-height: 72px;
-  font-size: 24px;
   font-family: $font-family2;
+  color: #DCE6F3;
+  background-color: #676D75;
   cursor: pointer;
 
   .label {

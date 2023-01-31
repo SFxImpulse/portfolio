@@ -1,5 +1,6 @@
 import useVisualModes from './hooks/useVisualModes';
 
+import DropdownMenu from './components/DropdownMenu';
 import MainPage from './components/MainPage';
 import Header from './components/Header';
 
@@ -19,6 +20,7 @@ function App() {
         menuIsActive={state.menuIsActive}
         setMenuIsActive={setMenuIsActive}
       />
+      <DropdownMenu menuIsActive={state.menuIsActive} />
       <MainPage
         dark={state.dark}
       />

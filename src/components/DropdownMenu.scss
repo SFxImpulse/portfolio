@@ -1,0 +1,14 @@
+.dropdown-menu-container {
+  position: fixed;
+  z-index: 2;
+  margin-top: 5em;
+  padding: 6em;
+  height: 100vh;
+  width: 25%;
+  right: 0px;
+  background-color: #414345;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
