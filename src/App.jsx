@@ -10,13 +10,16 @@ function App() {
     menuIsActive: false,
   });
 
+  const setDark = (dark) => setState((prev) => ({ ...prev, dark }));
+  const setMenuIsActive = (menuIsActive) => setState((prev) => ({ ...prev, menuIsActive }));
+
   return (
     <div>
       <Header
         dark={state.dark}
-        setDark={setState}
+        setDark={setDark}
         menuIsActive={state.menuIsActive}
-        setMenuIsActive={setState}
+        setMenuIsActive={setMenuIsActive}
       />
       <MainPage
         dark={state.dark}

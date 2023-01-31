@@ -13,9 +13,7 @@ const MenuButton = props => {
           size="2x"
           className="menu-button"
           onClick={() => {
-            props.setMenuIsActive({
-              menuIsActive: false
-            });
+            props.setMenuIsActive(false);
           }}
         />
       : <FontAwesomeIcon
@@ -23,9 +21,7 @@ const MenuButton = props => {
           size="2x"
           className="menu-button"
           onClick={() => {
-            props.setMenuIsActive({
-              menuIsActive: true
-            });
+            props.setMenuIsActive(true);
           }}
         />
     )
