@@ -1,4 +1,4 @@
-import useVisualModes from './hooks/stateSelectors';
+import useVisualModes from './hooks/useVisualModes';
 
 import MainPage from './components/MainPage';
 import Header from './components/Header';
