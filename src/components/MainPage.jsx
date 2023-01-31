@@ -15,7 +15,7 @@ function MainPage(props) {
         <h1 className="name text--bold">David Braverman</h1>
         <h4 className="bio text--light">I am a full stack web developer based in Toronto Ontario. I love video games, making music, and my lovely animals.</h4>
       </section>
-      {/* <img src="itsa me"></img> */}
+      <img src="itsa me"></img>
     </div>
   )
 };

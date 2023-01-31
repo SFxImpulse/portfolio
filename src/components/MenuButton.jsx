@@ -1,15 +1,34 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faGripLines, faGripLinesVertical } from "@fortawesome/free-solid-svg-icons";
 import "./MenuButton.scss";
 
-const MenuButton = () => {
+const MenuButton = props => {
+
+  console.log(props);
+
   return (
-    <FontAwesomeIcon
-      icon={faBars}
-      size="2x"
-      className="menu-button"
-      onClick={() => console.log("Menu Opened")}
-    />
+    (props.menuIsActive
+      ? <FontAwesomeIcon
+          icon={faGripLinesVertical}
+          size="2x"
+          className="menu-button"
+          onClick={() => {
+            props.setMenuIsActive({
+              menuIsActive: false
+            });
+          }}
+        />
+      : <FontAwesomeIcon
+          icon={faGripLines}
+          size="2x"
+          className="menu-button"
+          onClick={() => {
+            props.setMenuIsActive({
+              menuIsActive: true
+            });
+          }}
+        />
+    )
   );
 };
 

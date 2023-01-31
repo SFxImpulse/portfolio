@@ -1,15 +1,21 @@
 @import "../index.scss";
+@import "../styles/variables.scss";
+@import "../styles/typography.scss";
 
 .button {
-  width: 17%;
+  // width: 17%;
   padding: 0;
-  background-color: white;
+  color: #E6E6E6;
+  background-color: #2B2C38;
   border: 0;
   line-height: 72px;
   font-size: 24px;
+  font-family: $font-family2;
   cursor: pointer;
 
   .label {
+    margin-left: 2em;
+    margin-right: 2em;
     transform: scale(1);
     transition: transform 0.2s ease;
 

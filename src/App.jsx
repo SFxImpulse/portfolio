@@ -7,6 +7,7 @@ function App() {
 
   const [state, setState] = useState({
     dark: false,
+    menuIsActive: false,
   });
 
   return (
@@ -14,6 +15,8 @@ function App() {
       <Header
         dark={state.dark}
         setDark={setState}
+        menuIsActive={state.menuIsActive}
+        setMenuIsActive={setState}
       />
       <MainPage
         dark={state.dark}
