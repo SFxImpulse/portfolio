@@ -1,6 +1,5 @@
 import DarkModeButton from "./DarkModeButton";
 import MenuButton from "./MenuButton";
-import Button from "./Button";
 import "./Header.scss";
 
 const Header = props => {

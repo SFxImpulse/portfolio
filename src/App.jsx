@@ -1,17 +1,15 @@
-import { useState } from 'react';
+import useVisualModes from './hooks/stateSelectors';
 
 import MainPage from './components/MainPage';
 import Header from './components/Header';
 
 function App() {
 
-  const [state, setState] = useState({
-    dark: false,
-    menuIsActive: false,
-  });
-
-  const setDark = (dark) => setState((prev) => ({ ...prev, dark }));
-  const setMenuIsActive = (menuIsActive) => setState((prev) => ({ ...prev, menuIsActive }));
+  const {
+    state,
+    setDark,
+    setMenuIsActive
+  } = useVisualModes();
 
   return (
     <div>
