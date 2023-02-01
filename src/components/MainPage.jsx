@@ -1,5 +1,8 @@
-import "./MainPage.scss";
+import Button from "./Button";
+
 import classNames from "classnames";
+
+import "./MainPage.scss";
 
 function MainPage(props) {
 
@@ -16,6 +19,11 @@ function MainPage(props) {
         <h4 className="bio text--light">I am a full stack web developer based in Toronto Ontario. I love video games, making music, and my lovely animals.</h4>
       </section>
       {/* <img src="itsa me"></img> */}
+      <section className="button-container">
+        <Button label="About"/>
+        <Button label="Portfolio"/>
+        <Button label="Contact"/>
+      </section>
     </div>
   )
 };

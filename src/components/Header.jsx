@@ -7,7 +7,7 @@ const Header = props => {
   return (
     <nav className="nav-container">
       <h2 className="last-name text--light">Braverman</h2>
-      <section className="button-container">
+      <section className="nav-button-container">
         <NavButton label="About"/>
         <NavButton label="Portfolio"/>
         <NavButton label="Contact"/>
