@@ -7,8 +7,8 @@ const DropdownMenu = props => {
     (props.menuIsActive &&
       <section className="dropdown-menu-container">
         <Button label="About" />
-        <Button label="About" />
-        <Button label="About" />
+        <Button label="Portfolio" />
+        <Button label="Contact" />
       </section>
     )
   );

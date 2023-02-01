@@ -3,8 +3,12 @@
 @import "../styles/typography.scss";
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   border: 0;
+  border-radius: 10px;
   line-height: 72px;
   font-family: $font-family2;
   color: #DCE6F3;
@@ -12,8 +16,6 @@
   cursor: pointer;
 
   .label {
-    margin-left: 2em;
-    margin-right: 2em;
     transform: scale(1);
     transition: transform 0.2s ease;
 
