@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import "./MainPage.scss";
 
-function MainPage(props) {
+const MainPage = props => {
 
   let mainPage = classNames({
     "main-page": !props.dark,
