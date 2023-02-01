@@ -1,6 +1,6 @@
-import "./Button.scss";
+import "./NavButton.scss";
 
-const Button = props => {
+const NavButton = props => {
   return (
     <button className="button">
       <h3 className="label text--regular">{props.label}</h3>
@@ -8,4 +8,4 @@ const Button = props => {
   );
 };
 
-export default Button;
+export default NavButton;

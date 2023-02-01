@@ -2,10 +2,11 @@
 @import "../styles/variables.scss";
 
 .nav-container {
+  display: flex;
   align-items: center;
   padding-left: 1.5em;
-  height: 5em;
-  display: flex;
+  padding-right: 1.5em;
+  height: 5.3em;
   z-index: 2;
   width: 100%;
   position: fixed;
@@ -20,7 +21,6 @@
   .button-container {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 1em;
+    margin-left: 28em;
   }
 }
