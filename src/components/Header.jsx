@@ -15,6 +15,8 @@ const Header = props => {
       <DarkModeButton 
         dark={props.dark}
         setDark={props.setDark}
+        addDark={props.addDark}
+        removeDark={props.removeDark}
       />
     </nav>
   );

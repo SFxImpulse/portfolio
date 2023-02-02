@@ -8,6 +8,8 @@ function App() {
   const {
     state,
     setDark,
+    addBodyClass,
+    removeBodyClass,
   } = useVisualModes();
 
   return (
@@ -15,6 +17,8 @@ function App() {
       <Header
         dark={state.dark}
         setDark={setDark}
+        addDark={addBodyClass}
+        removeDark={removeBodyClass}
       />
       <MainPage
         dark={state.dark}

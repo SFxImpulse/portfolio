@@ -13,7 +13,7 @@ const DarkModeButton = props => {
           size="2x"
           className="darkmode-button"
           onClick={() => {
-            props.setDark(false);
+            props.removeDark("body-dark");
           }}
         />  
       : <FontAwesomeIcon
@@ -21,7 +21,7 @@ const DarkModeButton = props => {
           size="2x"
           className="darkmode-button"
           onClick={() => {
-            props.setDark(true);
+            props.addDark("body-dark");
           }}
         />
     )

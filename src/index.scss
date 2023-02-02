@@ -10,4 +10,14 @@
 
 body {
   font-family: $font-family;
+  color: #1E252E;
+  background-color: #E1E9F3;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.body-dark {
+  font-family: $font-family;
+  color: #F0F6FD;
+  background-color: #2E3946;
+  transition: color 0.5s, background-color 0.5s;
 }
