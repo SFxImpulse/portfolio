@@ -2,7 +2,7 @@
 @import "../styles/typography.scss";
 
 .main-page {
-  padding-top: 280px;
+  padding-top: 300px;
   padding-left: 90px;
   padding-right: 90px;
   height: 100vh;
@@ -26,10 +26,17 @@
       font-family: $font-family2;
     }
   }
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .main-page-dark {
-  padding-top: 280px;
+  padding-top: 300px;
   padding-left: 90px;
   padding-right: 90px;
   height: 100vh;
@@ -51,5 +58,11 @@
     .bio {
       font-family: $font-family2;
     }
+  }
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }

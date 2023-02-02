@@ -3,7 +3,6 @@
 @import "../styles/typography.scss";
 
 .nav-button {
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
@@ -12,13 +11,12 @@
   padding-right: 1em;
   margin-left: 3em;
   margin-right: 3em;
-  line-height: 72px;
   font-family: $font-family2;
   color: #E6E6E6;
   background-color: #2B2C38;
   cursor: pointer;
 
-  .label {
+  .nav-label {
     transform: scale(1);
     transition: transform 0.2s ease;
 

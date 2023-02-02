@@ -20,9 +20,9 @@ const MainPage = props => {
       </section>
       {/* <img src="itsa me"></img> */}
       <section className="button-container">
-        <Button label="About"/>
-        <Button label="Portfolio"/>
-        <Button label="Contact"/>
+        <Button dark={props.dark} label="About"/>
+        <Button dark={props.dark} label="Portfolio"/>
+        <Button dark={props.dark} label="Contact"/>
       </section>
     </div>
   )

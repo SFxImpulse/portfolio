@@ -1,20 +1,54 @@
 @import "../styles/typography.scss";
 @import "../styles/variables.scss";
 
-.button-container {
-  font-family: $font-family;
-  font-size: 32px;
-  display: flex;
-  justify-content: space-around;
+.button {
+  padding: 0;
+  border: 0;
+  padding-left: 2.1em;
+  padding-right: 2.1em;
+  line-height: 82px;
+  margin-top: 14em;
+  border-radius: 35px;
+  color: #243244;
+  background-color: #C2D3E7;
+  transition: color 0.5s ease, background-color 0.5s ease;
+  cursor: pointer;
+  
+  .label {
+    font-size: 36px;
+    font-family: $font-family2;
+    transform: scale(1);
+    transition: transform 0.2s ease;
 
-  .button {
-    padding: 0;
-    border: 0;
-    border-radius: 25px;
-    padding: 0.5em;
-    margin-top: 6em;
-    color: #1E252E;
-    background-color: #BFD4EE;
-    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s ease;
+    }
+  }
+}
+
+.button-dark {
+  padding: 0;
+  border: 0;
+  padding-left: 2.1em;
+  padding-right: 2.1em;
+  line-height: 82px;
+  margin-top: 14em;
+  border-radius: 35px;
+  color: #C2D3E7;
+  background-color: #3F5066;
+  transition: color 0.5s ease, background-color 0.5s ease;
+  cursor: pointer;
+  
+  .label {
+    font-size: 36px;
+    font-family: $font-family2;
+    transform: scale(1);
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s ease;
+    }
   }
 }
