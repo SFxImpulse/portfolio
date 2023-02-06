@@ -1,3 +1,4 @@
+import About from "./About";
 import Button from "./Button";
 
 import classNames from "classnames";
@@ -24,6 +25,7 @@ const MainPage = props => {
         <Button dark={props.dark} label="Portfolio"/>
         <Button dark={props.dark} label="Contact"/>
       </section>
+      <About />
     </div>
   )
 };
